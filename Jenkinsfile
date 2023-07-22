@@ -12,7 +12,7 @@ pipeline {
         stage('vcs') {
             steps {
                 git url: 'https://github.com/divyakothuru311/Jenkins',
-                branch 'main'
+                    branch 'main'
                 
                             
             }
